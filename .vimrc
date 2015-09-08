@@ -1,8 +1,8 @@
+" OMIEND .vimrc
 if has('vim_starting')
   if &compatible
     set nocompatible " Be iMproved
   endif
-
   " Required:
   set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
@@ -18,9 +18,11 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
 
-NeoBundle 'tomasr/molokai'
+NeoBundle 'orthecreedence/void.vim'
+NeoBundle 'bling/vim-airline.git'
 
 call neobundle#end()
+
 
 " Required:
 filetype plugin indent on
@@ -29,8 +31,10 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 
-colorscheme molokai
 
+colorscheme void
+
+set laststatus=2
 
 " シンタックスハイライトを有効化
 syntax on
@@ -57,4 +61,3 @@ set incsearch
 
 " 行番号の表示
 set number
-
