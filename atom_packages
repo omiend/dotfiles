@@ -1,7 +1,11 @@
 autocomplete-paths
+convert-to-utf8
+file-icons
+git-plus
 highlight-selected
 japanese-wrap
 jumpy
-project-manager
 language-scala
-file-icons
+pretty-json
+project-manager
+tabs-to-spaces
