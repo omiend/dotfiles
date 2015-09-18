@@ -38,6 +38,3 @@
   'alt-ctrl-right' : 'pane:split-right'
   'alt-ctrl-['     : 'window:focus-next-pane'
   'alt-ctrl-]'     : 'window:focus-previous-pane'
-
-
-# 
