@@ -31,7 +31,9 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 
-
+" ============================================================
+" ===
+" ============================================================
 colorscheme void
 
 set laststatus=2
