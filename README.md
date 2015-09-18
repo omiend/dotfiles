@@ -26,6 +26,12 @@ $ ln -s ~/.dotfiles/sublimetext3_Preferences.sublime-settings ~/Library/Applicat
 ```
 
 ### Atom
+Export My Atom Packages
 ```
-$ atom install --packages-file ~/.dotfiles/atom_packages
+$ apm ls -bi | awk -F@ '{print $1}' > ~/dotfiles/atom_packages
+```
+
+Install My Atom Packages
+```
+$ apm install --packages-file ~/dotfiles/atom_packages
 ```
