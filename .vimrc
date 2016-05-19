@@ -22,6 +22,7 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimproc'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'orthecreedence/void.vim'
+NeoBundle 'ap/vim-css-color'
 
 NeoBundle 'bling/vim-airline.git'
 
@@ -104,4 +105,13 @@ nnoremap <silent> Um :<C-u>Unite file_mru<CR>
 nnoremap <silent> Ug :<C-u>Unite grep:. -buffer-name=search-buffer<CR>
 nnoremap <silent> Ur :<C-u>UniteResume search-buffer<CR>
 nnoremap <silent> Ut :<C-u>Unite tab<CR>
+
+" ============================================================
+" === 
+" ============================================================
+command! -nargs=0 CPView set nolist nonumber 
+command! -nargs=0 DevView set list number
+
+command! -nargs=0 Scratch new | setlocal bt=nofile noswf | let b:cmdex_scratch = 1
+
 

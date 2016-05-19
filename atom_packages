@@ -1,13 +1,17 @@
-autocomplete-paths
+Ensime
+atom-beautify
+browser-plus
 convert-to-utf8
 file-icons
-git-plus
 highlight-selected
-jumpy
+hyperclick
+intentions
+json-converter
 language-scala
-markdown-preview-plus
+linter
 pretty-json
 project-manager
 split-diff
-tabs-to-spaces
+sync-settings
+
 
