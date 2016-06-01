@@ -12,6 +12,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
+" git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
