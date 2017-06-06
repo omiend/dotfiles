@@ -1,10 +1,8 @@
 {
-	"color_scheme": "Packages/Theme - Midnight/Midnight.dark.tmTheme",
 	"default_encoding": "UTF-8",
 	"draw_white_space": "all",
 	"fallback_encoding": "UTF-8",
-	"font_face": "Consolas",
-	"font_size": 13,
+	"font_size": 16,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -13,7 +11,6 @@
 	"line_padding_top": 5,
 	"show_encoding": true,
 	"tab_size": 2,
-	"theme": "Midnight.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
